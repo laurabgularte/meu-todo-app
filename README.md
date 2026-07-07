@@ -1,16 +1,49 @@
-# React + Vite
+# 🚀 Minha Lista de Tarefas (To-Do List)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 💻 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O **Minha Lista de Tarefas** é uma aplicação web interativa desenvolvida em **React** utilizando o **Vite** como ferramenta de build. O projeto foi criado com o objetivo de consolidar conceitos essenciais de desenvolvimento frontend moderno, focando em gerenciamento de estado local, componentização inteligente e persistência de dados no navegador.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tecnologias
 
-## Expanding the ESLint configuration
+As seguintes ferramentas e tecnologias foram utilizadas na construção do projeto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **[React](https://reactjs.org/)** — Biblioteca JavaScript para construção de interfaces.
+- **[Vite](https://vitejs.dev/)** — Build tool ultra veloz para desenvolvimento moderno.
+- **[JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** — Lógica de programação.
+- **[CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)** — Estilização customizada e responsiva.
+- **[LocalStorage](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/localStorage)** — Persistência de dados direto no navegador do usuário.
+
+---
+
+## ✨ Funcionalidades
+
+- **Adicionar Tarefas:** Criação dinâmica de novas tarefas impedindo inputs vazios ou apenas com espaços.
+- **Concluir / Alternar Status:** Clique simples sobre a tarefa para riscá-la, alterando visualmente seu estado para concluída.
+- **Remover Tarefas:** Exclusão individual de qualquer item da lista em tempo real.
+- **Persistência Local (LocalStorage):** As tarefas não desaparecem mesmo se o usuário fechar o navegador ou atualizar (F5) a página.
+- **Feedback Visual:** Mensagem amigável informando quando não há tarefas pendentes na lista.
+
+---
+
+## 🚀 Como Executar
+
+Para clonar e rodar esta aplicação na sua máquina, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/) instalados.
+
+```bash
+git clone [https://github.com/](https://github.com/)[laurabgularte]/meu-todo-app.git
+
+cd meu-todo-app
+
+npm install
+
+
+npm run dev
+
+```
+
+O terminal gerará um link local (geralmente http://localhost:5173). Abra-o no navegador para testar.
