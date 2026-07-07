@@ -1,0 +1,95 @@
+body {
+  background-color: #121214;
+  color: #e1e1e6;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.container {
+  background: #202024;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #04d361;
+  font-size: 1.8rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.formulario input {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #29292e;
+  background: #121214;
+  color: #fff;
+  outline: none;
+}
+
+.formulario button {
+  background: #04d361;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.formulario button:hover {
+  background: #00b34d;
+}
+
+.lista-tarefas {
+  list-style: none;
+  padding: 0;
+}
+
+.item-tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #29292e;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.item-tarefa span {
+  cursor: pointer;
+  flex: 1;
+}
+
+.item-tarefa.concluida span {
+  text-decoration: line-through;
+  color: #7c7c8a;
+}
+
+.btn-deletar {
+  background: #f75a68;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-deletar:hover {
+  background: #c53030;
+}
+
+.lista-vazia {
+  text-align: center;
+  color: #7c7c8a;
+}
